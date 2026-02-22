@@ -280,7 +280,7 @@ export const projectsData: Record<string, ProjectData> = {
     description: "Transparent digital camera product design exploration.",
     images: [
       {
-        src: "https://i.imgur.com/Xd8Nu8F.png?auto=compress&cs=tinysrgb&w=1200",
+        src: "https://i.imgur.com/aW43wk4.png?auto=compress&cs=tinysrgb&w=1200",
         alt: "LiteFlix Hero",
         size: "large",
       },
