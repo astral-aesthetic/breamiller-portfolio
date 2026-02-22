@@ -8,7 +8,6 @@ const aiTools = [
   { id: 4, name: 'Descript', logo: 'https://s3-eu-west-1.amazonaws.com/tpd/logos/5a397f4bb894c90c086a7587/0x0.png', url: 'https://www.descript.com' },
   { id: 5, name: 'Adobe Firefly', logo: 'https://cdn-icons-png.flaticon.com/512/731/731970.png', url: 'https://www.adobe.com/products/firefly.html' },
   { id: 6, name: 'GitHub', logo: 'https://cdn-icons-png.flaticon.com/512/25/25231.png', url: 'https://www.github.com' },
-  { id: 7, name: 'OpenArt', logo: 'https://backend.aionlinecourse.com/uploads/ai_software/image/2023/12/openart.png', url: 'https://www.openart.ai' },
   { id: 8, name: 'Pixlr', logo: 'https://pixlr.com/blog/wp-content/uploads/2022/03/cropped-cropped-Black-icon.png', url: 'https://www.pixlr.com' },
   { id: 9, name: 'Claude', logo: 'https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/claude.png', url: 'https://www.claude.ai' },
   { id: 10, name: 'Figma', logo: 'https://www.svgrepo.com/show/361494/figma-logo.svg', url: 'https://www.figma.com' },
