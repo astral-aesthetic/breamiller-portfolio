@@ -176,7 +176,7 @@ const selectedProjects: SelectedProject[] = [
     id: 'flix',
     title: 'LiteFlix',
     subtitle: 'lightweight streaming platform',
-    image: 'https://i.imgur.com/vFVoyRr.png?auto=compress&cs=tinysrgb&w=600',
+    image: 'https://i.imgur.com/Xd8Nu8F.png?auto=compress&cs=tinysrgb&w=600',
     categories: ['products'],
     tags: ['Streaming', 'UI/UX', 'Design'],
   },

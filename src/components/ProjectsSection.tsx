@@ -15,7 +15,7 @@ export const ProjectsSection = () => {
     { id: 'imagine', label: 'PASSION PROJECT', title: 'Imagine...', img: 'https://i.imgur.com/hskv718.jpeg?auto=compress&cs=tinysrgb&w=600', size: 'small' },
     { id: 'attraction', label: 'AI COUTURE', title: 'The Art of Attraction', img: 'https://i.imgur.com/eXDo86B.jpeg?auto=compress&cs=tinysrgb&w=400', size: 'small' },
     { id: 'wellness-guide', label: 'LIFESTYLE BOOK', title: 'Wellness Guide', img: 'https://i.imgur.com/EGUHIC7.png?auto=compress&cs=tinysrgb&w=400', size: 'small', popOff: true },
-    { id: 'flix', label: 'Product Design', title: 'LiteFlix', img: 'https://i.imgur.com/U51sKZH.png?auto=compress&cs=tinysrgb&w=600', size: 'small', popOff: true },
+    { id: 'flix', label: 'Product Design', title: 'LiteFlix', img: 'https://i.imgur.com/Xd8Nu8F.png?auto=compress&cs=tinysrgb&w=600', size: 'small', popOff: true },
     { id: 'xantara', label: 'AUTHORED WORK', title: 'Xantara', img: 'https://i.imgur.com/WbYxDvA.png?auto=compress&cs=tinysrgb&w=400', size: 'small' },
     { id: 'love-birds', label: 'AI DECOR', title: 'Love Birds', img: 'https://i.imgur.com/e7kW4Jt.jpeg?w=600', size: 'small' },
     { id: 'pneuma-collection', label: 'AI READY-TO-WEAR', title: 'Pneuma Collection', img: 'https://i.imgur.com/CEqlRoO.png?auto=compress&cs=tinysrgb&w=400', size: 'small', popOff: true },

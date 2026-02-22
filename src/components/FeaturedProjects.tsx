@@ -15,7 +15,7 @@ const featuredProjects: FeaturedProject[] = [
     id: 'liteflix',
     title: 'LiteFlix',
     description: 'A transparent digital camera inspried by the 5D optic storage',
-    image: 'https://i.imgur.com/szopggr.png?auto=compress&cs=tinysrgb&w=1200',
+    image: 'https://i.imgur.com/Xd8Nu8F.png?auto=compress&cs=tinysrgb&w=1200',
     category: 'Product',
   },
   {
