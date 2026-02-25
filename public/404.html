@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">
+      // Redirect to home page when a resource is not found
+      var segmentCount = 0;
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        '/index.html?p=/' + l.pathname.slice(1).split('/').slice(segmentCount).join('/')
+      );
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
