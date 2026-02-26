@@ -100,7 +100,7 @@ const projectsData = [
 // Add this code snippet here:
 // Function to navigate to project page
 function navigateToProject(projectSlug) {
-    window.location.href = `project.html?project=${projectSlug}`; // Ensure .html is included if needed
+    window.location.href = `project.html?project=${encodeURIComponent(projectSlug)}`; // Ensure .html is included if needed
 }
 
 // Function to create project item HTML

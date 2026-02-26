@@ -70,7 +70,12 @@ class ProjectLoader {
         if (projectTitle) projectTitle.textContent = data.title;
         
         const projectDescription = document.getElementById('project-description');
-        if (projectDescription) projectDescription.innerHTML = `<span class="accent-text">✐ᝰ</span> ${data.description}`;
+        if (projectDescription) {
+            projectDescription.innerHTML = '<span class="accent-text">✐ᝰ</span> ';
+            const descSpan = document.createElement('span');
+            descSpan.textContent = data.description;
+            projectDescription.appendChild(descSpan);
+        }
         
         const heroMediaContainer = document.getElementById('hero-media-container');
         if (heroMediaContainer) {
@@ -120,7 +125,12 @@ class ProjectLoader {
         
         const imagineTextDiv = document.createElement('div');
         imagineTextDiv.className = 'imagine-text';
-        imagineTextDiv.innerHTML = `<h3>${section.title}</h3><p>${section.text || ''}</p>`;
+        const titleEl = document.createElement('h3');
+        titleEl.textContent = section.title;
+        const textEl = document.createElement('p');
+        textEl.textContent = section.text || '';
+        imagineTextDiv.appendChild(titleEl);
+        imagineTextDiv.appendChild(textEl);
         sectionDiv.appendChild(imagineTextDiv);
 
         const imagineCardDiv = document.createElement('div');
@@ -152,7 +162,12 @@ class ProjectLoader {
             
             const imagineTextDiv = document.createElement('div');
             imagineTextDiv.className = 'imagine-text';
-            imagineTextDiv.innerHTML = `<h3>${item.title}</h3><p>${item.text || ''}</p>`;
+            const titleEl = document.createElement('h3');
+            titleEl.textContent = item.title;
+            const textEl = document.createElement('p');
+            textEl.textContent = item.text || '';
+            imagineTextDiv.appendChild(titleEl);
+            imagineTextDiv.appendChild(textEl);
             itemDiv.appendChild(imagineTextDiv);
 
             const imagineCardDiv = document.createElement('div');
